@@ -1,0 +1,2 @@
+App Link:
+gcr.io/aqi-prediction-338709/air-pollution-forecasting-delhi-deployment@sha256:945644bcb6989f34508f92602927827d789cabad56094f4193d1f779ecd1146d
