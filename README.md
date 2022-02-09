@@ -31,9 +31,12 @@ Data science can help in Forecasting of PM2.5 but no structured time series data
 ## III. Data Collection
 
 A. Air Quality Index (AQI) Data
-       Day wise AQI Level for every hour at different DPCC Stations of Delhi.   
-       Technique: Web Scraping (Using Selenium in Python)
-       Source: https://app.cpcbccr.com/AQI_India/
+   
+The Central Pollution Control Board (CPCB), statutory organisation, was constituted in September, 1974 under the Water (Prevention and Control of Pollution) Act, 1974. Further, CPCB was entrusted with the powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. CPCB Monitors hourly AQI data and also collects data from state owned stations like DPCC (Delhi Pollution Control Committee). CPCB's Web app shows hourly pollutant level data day wise for every station present in India in the form of bar charts. Web Scraping with Selenium can help in extracting data as we need to crawl through various pages and Pollutant numbers are covered under heavy HTML Tags. Selenium can easily parse HTML and crawl on different pages. We will extract data in rectangle format.
+   
+   Day wise AQI Level for every hour at different DPCC Stations of Delhi.   
+   Technique: Web Scraping (Using Selenium in Python)
+   Source: https://app.cpcbccr.com/AQI_India/
        
        Features: -> Diff Pollutants - (Like PM 10, 2.5, CO, 
                                                       NO2, NNH3, Ozone, 
@@ -42,23 +45,20 @@ A. Air Quality Index (AQI) Data
                       -> Avg, Min, Max, 
                       -> Prominent Pollutant
                        
-       Stations:                                      From
+       Stations for collection:                                     
        1. Punjabi Bagh, Delhi - DPCC -  1st June 2015
        2. Anand Vihar, Delhi - DPCC  -  1st Nov  2017
-       3. R.K. Puram, Delhi    - DPCC  -  1st Nov  2017
-       4. J.N. Stadium, Delhi  - DPCC -   1st  Feb  2018
-       5. Ohkla Ph-2, Delhi    - DPCC -   2nd  Feb  2018
-       6. Patparganj, Delhi     - DPCC -   2nd  Feb  2018
-       7. Wazirpur, Delhi       - DPCC -   2nd  Feb  2018
-       8. Rohini, Delhi           - DPCC -   2nd  Feb  2018
-       9. Ashok Vihar, Delhi  - DPCC -   2nd  Feb  2018
-     10. KSSR, Delhi             - DPCC -   2nd  Feb  2018
-     11. Dwarka, Sec-8, Delhi - DPCC- 2nd  Feb  2018
+       
+       Output Dataframe Format: .xlsx
+      
   
 B. Weather Data
-       Day Wise Every Hour Weather Report for particular location (In Sync with DPCC Stations)     
-       Technique: Web Scraping (Using Selenium in Python)       
-       Source: https://freemeteo.in/weather/new-delhi/history/daily-history/?gid=1261481&date=2015-06-01&station=9764&language=english&country=india
+
+Delhi's historical weather data for every half and hour was available at freemeteo website. Website's HTML was comparatively simple than later web app as data was presented in Table Format on Web Page but Ads were the problem which were popping randomly while crawling. Again I used Selenium to extract data from the web page. "If-else" and "try-except" conditions were used at every step to tackle the ad issue. If ad came selenium's cursor will find close button, click it and resume the collection and crawling. 
+
+   Day Wise Every half and hour Weather Report for particular location (In Sync with DPCC Stations)     
+   Technique: Web Scraping (Using Selenium in Python)       
+   Source: https://freemeteo.in/weather/new-delhi/history/daily-history/?gid=1261481&date=2015-06-01&station=9764&language=english&country=india
        
        Features: -> Temperature in celsius captured at that Hour (In Sync with AQI data)
                       -> Wind Speed
@@ -67,5 +67,6 @@ B. Weather Data
                       -> Humidity
                       -> Desc (Like Thunder, Cloudy, etc)
          Location -> Palam, Delhi
-
+         
+         Output Dataframe Format: .xlsx
 
