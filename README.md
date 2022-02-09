@@ -2,14 +2,23 @@
 Brief: Time Series Forecasting and Cross Section Prediction of PM2.5 and PM10 in Delhi
 
 ## Index:-
+
 I. Problem Statement
+
 II. Data Science Problem
+
 III. Data Collection
+
 IV. Data Preparation
+
 V. Exploratory Data Analysis
+
 VI. Modeling
+
 VII. Model Evaluation
+
 VIII. Deployment
+
 IX. Maintenance and Improvements
 
 
