@@ -1,7 +1,7 @@
 # Air-Pollutants-Forecasting-&-Prediction-Delhi
 Brief: Time Series Forecasting and Cross Section Prediction of PM2.5 and PM10 in Delhi
 
-![alt text](https://github.com/Jaspreet1711/Air-Pollutant-Prediction-Delhi/blob/main/5.%20Model%20Evaluation/Time_Series_PM2.5/TransdormerModel_Results_Monthly_Viz.png)
+![This Image Represents time series forecating backtesting using a deep learning model](https://github.com/Jaspreet1711/Air-Pollutant-Prediction-Delhi/blob/main/5.%20Model%20Evaluation/Time_Series_PM2.5/TransdormerModel_Results_Monthly_Viz.png)
 
 
 ## Index:-
