@@ -30,7 +30,7 @@ Data science can help in Forecasting of PM2.5 but no structured time series data
 
 ## III. Data Collection
 
-A. Air Quality Index (AQI) Data
+### A. Air Quality Index (AQI) Data collection
    
 The Central Pollution Control Board (CPCB), statutory organisation, was constituted in September, 1974 under the Water (Prevention and Control of Pollution) Act, 1974. Further, CPCB was entrusted with the powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. CPCB Monitors hourly AQI data and also collects data from state owned stations like DPCC (Delhi Pollution Control Committee). 
 
@@ -54,7 +54,7 @@ CPCB's Web app shows hourly pollutant level data day wise for every station pres
        Output Dataframe Format: .xlsx
       
   
-B. Weather Data
+### B. Weather Data collection
 
 Delhi's historical weather data for every half and hour was available at freemeteo website. Website's HTML was comparatively simple than later web app as data was presented in Table Format on Web Page but Ads were the problem which were popping randomly while crawling. Again I used Selenium to extract data from the web page. "If-else" and "try-except" conditions were used at every step to tackle the ad issue. If ad came selenium's cursor will find close button, click it and resume the collection and crawling. 
 
@@ -71,4 +71,32 @@ Delhi's historical weather data for every half and hour was available at freemet
          Location -> Palam, Delhi
          
          Output Dataframe Format: .xlsx
+
+## IV. Data Preprocessing
+
+I have done Data Preprocessing at different and level and done EDA after every level to improve data preprocessing.
+
+### DP Level - 1 
+
+#### Text Present in Data was removed
+-> Missing Values were present in text form
+While Web Scraping if Value at time was not availble it was returning "NA", "NaN", "'No data for a day'". All of these were replaced by null values.
+It was done for both AQI and Weather Data Set.
+
+-> Weather Data was full of text
+Features like teamperature were having "Degree Celsius", Wind Speed had "KmPH" written after the number, Atmospheric pressure had "mb" etc. 
+
+#### Dummy Variables 
+Categorical data was converted into Dummies. In Weather Data Weather Description were of 6 Types (like Thunder, Cloudy, Sunny, etc.) and 5 dummies were created. 
+
+#### features Data Type Formatting
+-> Timestamp in both the AQI and Weather Datasets were set to Datetime format using pandas.
+-> In Weather features like Description was dropped as dummies were created.
+-> Rest of the data was converted to numeric type.
+
+### DP Level - 2
+
+
+
+
 
