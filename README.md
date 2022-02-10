@@ -1,4 +1,4 @@
-# Air-Pollutant-Prediction-Delhi
+# Air-Pollutants-Forecasting-&-Prediction-Delhi
 Brief: Time Series Forecasting and Cross Section Prediction of PM2.5 and PM10 in Delhi
 
 ## Index:-
