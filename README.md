@@ -32,7 +32,9 @@ Data science can help in Forecasting of PM2.5 but no structured time series data
 
 A. Air Quality Index (AQI) Data
    
-The Central Pollution Control Board (CPCB), statutory organisation, was constituted in September, 1974 under the Water (Prevention and Control of Pollution) Act, 1974. Further, CPCB was entrusted with the powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. CPCB Monitors hourly AQI data and also collects data from state owned stations like DPCC (Delhi Pollution Control Committee). CPCB's Web app shows hourly pollutant level data day wise for every station present in India in the form of bar charts. Web Scraping with Selenium can help in extracting data as we need to crawl through various pages and Pollutant numbers are covered under heavy HTML Tags. Selenium can easily parse HTML and crawl on different pages. We will extract data in rectangle format.
+The Central Pollution Control Board (CPCB), statutory organisation, was constituted in September, 1974 under the Water (Prevention and Control of Pollution) Act, 1974. Further, CPCB was entrusted with the powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. CPCB Monitors hourly AQI data and also collects data from state owned stations like DPCC (Delhi Pollution Control Committee). 
+
+CPCB's Web app shows hourly pollutant level data day wise for every station present in India in the form of bar charts. Web Scraping with Selenium can help in extracting data as we need to crawl through various pages and Pollutant numbers are covered under heavy HTML Tags. Selenium can easily parse HTML and crawl on different pages. We will extract data in rectangle format.
    
    Day wise AQI Level for every hour at different DPCC Stations of Delhi.   
    Technique: Web Scraping (Using Selenium in Python)
