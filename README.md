@@ -1,7 +1,7 @@
 # Air-Pollutants-Forecasting-&-Prediction-Delhi
 Brief: Time Series Forecasting and Cross Section Prediction of PM2.5 and PM10 in Delhi
 
-## Snapshot of live Dashboard 
+## Snapshot of live Dashboard -- Power BI 
 It is made using power bi which daily gets update. Power BI is connected with Firebase DB (NoSQL) where all the data gets regularly stored using Selenium Web Scraper on Cron Job deployed on GCP. 
 #### First Page is Daily Report and Second is Forecast for next 6 Months.
 ![Dashboard plot](https://raw.githubusercontent.com/Jaspreet1711/Air-Pollutant-Prediction-Delhi/main/6.%20Deployment/Dashboard_PowerBI/Daily_Dashboard.PNG)
