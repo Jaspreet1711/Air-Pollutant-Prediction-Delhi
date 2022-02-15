@@ -7,7 +7,7 @@ It is made using power bi which daily gets update. Power BI is connected with Fi
 ![Dashboard plot](https://raw.githubusercontent.com/Jaspreet1711/Air-Pollutant-Prediction-Delhi/main/6.%20Deployment/Dashboard_PowerBI/Daily_Dashboard.PNG)
 ![Dash_Fore plot](https://raw.githubusercontent.com/Jaspreet1711/Air-Pollutant-Prediction-Delhi/main/6.%20Deployment/Dashboard_PowerBI/Forecast_PM2.5.PNG)
 
-### Below Image Represents time series forecating backtesting using deep learning model.
+### Below Image Represents time series forecating backtesting of deep learning model.
 ![TS plot](https://github.com/Jaspreet1711/Air-Pollutant-Prediction-Delhi/blob/main/5.%20Model%20Evaluation/Time_Series_PM2.5/TransdormerModel_Results_Monthly_Viz.png)
 
 
