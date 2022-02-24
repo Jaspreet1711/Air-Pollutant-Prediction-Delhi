@@ -1,7 +1,7 @@
 # Air-Pollutants-Forecasting-&-Prediction-Delhi
 Brief: Time Series Forecasting and Cross Section Prediction of PM2.5 and PM10 in Delhi
 ## Model Active Data Pipeline 
-#### Click on image to view
+### Click on image to view
 ![Dashboard plot](https://raw.githubusercontent.com/Jaspreet1711/Air-Pollutant-Prediction-Delhi/main/6.%20Deployment/Dashboard_PowerBI/Model_Pipeline.JPG)
 
 ## Snapshot of live Dashboard -- Power BI 
