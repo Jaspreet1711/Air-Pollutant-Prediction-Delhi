@@ -1,8 +1,11 @@
 # Air-Pollutants-Forecasting-&-Prediction-Delhi
 Brief: Time Series Forecasting and Cross Section Prediction of PM2.5 and PM10 in Delhi
-## Model Active Data Pipeline 
-### Click on image to view
-![Dashboard plot](https://raw.githubusercontent.com/Jaspreet1711/Air-Pollutant-Prediction-Delhi/main/6.%20Deployment/Dashboard_PowerBI/Model_Pipeline.JPG)
+## Model Data Pipeline - End to End 
+<iframe width="600" height="280" 
+								src="https://www.youtube.com/embed/TvXrm7Yh4Ic?autoplay=1&mute=1&loop=1"
+								title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+								</iframe>  
+                                                                <p><a href="https://raw.githubusercontent.com/Jaspreet1711/Air-Pollutant-Prediction-Delhi/main/6.%20Deployment/Dashboard_PowerBI/Model_Pipeline.JPG" target="_blank"><strong>Click here to view model pipeline flowchart static image.</strong></a></p>
 
 ## Snapshot of live Dashboard -- Power BI 
 It is made using power bi which daily gets update. Power BI is connected with Firebase DB (NoSQL) where all the data gets regularly stored using Selenium Web Scraper on Cron Job deployed on GCP. 
